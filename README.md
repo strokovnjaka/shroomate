@@ -25,6 +25,8 @@ Tako kot nož in koš, tudi **Shroomate** spremlja gobarja na njegovih podvigih,
 
 - ko se goba najde, gobar najprej izbere **Najdba!**; v modalnem dialogu gobar vnese *vrsto gobe*, kategorijo *vidnosti* (kateri gobarjem bo najdba vidna: *vsem*, *prijateljem*, *samo meni*) in *zaznamek* (občutki, opis dogodivščine, ...), samodejno se zabeležita lokacija in datum-čas, seveda pa lahko doda tudi slike najdbe. Najdba lahko pomeni več gob, ki pa so iste vrste.
 
+- gobar lahko potrdi ali pa predlaga drugačno vrsto gobe pri najdbi kolegov. To lahko naredi v opisu najdbe, ki ni njegova; pri *vrsti gobe* sta gumba *Potrdi* in *Predlagaj drugo* z izbirnikom vrste.
+
 ## Nastavitve
 
 Gobar lahko določi:
@@ -33,23 +35,24 @@ Gobar lahko določi:
 
 - **skrivanje lokacij**: za vsako od vidnosti najdb *vsem* in *prijateljem*, lahko določi skrivanje lokacije:
   - *natančno*: lokacija se ne spremeni pred predstavitvijo najdbe
-  - *mikrolokacija*: skrije se mikrolokacija, tj. pred predstavitvijo najdbe se lokacijo spremeni tako, da mikrolokaija ni na voljo (npr. psevdonaključni zamik)
+  - *makrolokacija*: skrije se mikrolokacija, tj. pred predstavitvijo najdbe se lokacijo spremeni tako, da mikrolokaija ni na voljo (npr. psevdonaključni zamik)
   - *regija*: predstavi se le regija, tj. pred predstavitvijo najdbe se lokacijo spremeni tako, da je vidna samo širša regija najdbe (npr. zaokrožanje na centre večjih delov območja)
 
-# UI / mockup
 
-<img src="unregistered.png" alt="unregistered" width="500"/>
+# UI specifications
 
-<img src="registered.png" alt="registered" width="500"/>
+UI specifications as per [LP instructions](https://teaching.lavbic.net/DevOps/WebDev/backend/LP.html#LP11) can be found in the `docs` dir and include the following views:
 
-<img src="login.png" alt="login" width="200"/>
+- [Registered user](docs/registered.md)
+- [Unregistered user](docs/unregistered.md)
+- [Log in](docs/login.md)
+- [Sign up](docs/signup.md)
+- [Settings](docs/settings.md)
+- [Sighting](docs/sighting.md)
+- [Filter](docs/filter.md)
+  
+## Notes on UI
 
-<img src="signup.png" alt="unregistered" width="200"/>
-
-*Settings* in *Sighting!* sta podobno kot *Log in* in *Sign up* modalna dialog z zgoraj opisanimi polji.
-
-# Opombe
-
-- Zemljevid se izvede z https://leafletjs.com (zunanji vir)
-- Vrsto gob se pridobi iz https://www.gobe.si/Gobe/GobeIndexSI (zunanji vir)
-- 
+- Map is displayed using https://leafletjs.com library
+- Map tiles are served from https://www.openstreetmap.org (external data source)
+- Mushroom species are imported from https://www.gobe.si/Gobe/GobeIndexSI (external data source)
