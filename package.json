@@ -1,0 +1,34 @@
+{
+  "name": "shroomate",
+  "description": "Mushroom picker's assitant and social media",
+  "author": "Jaka Krivic <jaka.krivic@gmail.com>",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "import:db-docker": "cd data; node ./db_import.js; docker cp ./gobesi.json web-dev-mongo-db:/gobesi.json; docker exec -it web-dev-mongo-db mongoimport --db shroomate --collection Species --mode upsert --upsertFields id --jsonArray --file gobesi.json; docker exec -it web-dev-mongo-db rm -rf gobesi.json; rm ./gobesi.json",
+    "drop:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.dropDatabase()'\"",
+    "delete:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.Species.deleteMany({})'\"",
+    "view:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.Species.find()'\"",
+    "transfer:db-docker-atlas": "docker exec -it web-dev-mongo-db bash -c \"mongodump -h localhost -d shroomate -o ./\"; docker exec -it web-dev-mongo-db bash -c \"mongorestore --drop --uri mongodb+srv://app@shroomate.bcxlfpk.mongodb.net/shroomate ./shroomate/Species.bson\"; docker exec -it web-dev-mongo-db bash -c \"rm -rf ./shroomate\""
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "~4.18.2",
+    "express-jwt": "^8.4.1",
+    "hbs": "~4.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.5.3",
+    "multer": "^1.4.5-lts.1",
+    "multer-gridfs-storage": "^5.0.2",
+    "nodemailer": "^6.9.6",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "rand-token": "^1.0.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}
