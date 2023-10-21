@@ -3,8 +3,6 @@ const Message = mongoose.model("Message");
 const User = mongoose.model("User");
 const Types = require('mongoose').Types
 
-require("../helpers/user.js")
-
 /**
  * @openapi
  * /messages:
