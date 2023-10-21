@@ -59,7 +59,7 @@ The application supports:
         description: "Development server for testing",
       },
       {
-        url: "https://godknowswhere.fly.dev/api",
+        url: "https://shroomate.onrender.com/api",
         description: "Production server",
       },
     ],
