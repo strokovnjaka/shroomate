@@ -1,7 +1,7 @@
 # Shroomate
 
 **Shroomate** je gobarski pomočnik, ki beleži gobarske dosežke uporabnikov in jih raztrosi v zaintersirano javnost. Seveda le do dovoljene mere, saj je vendar jasno, da so gobarski tereni skrbno varovana skrivnost.
-Pomočnik je dostopen na https://shrooma.te. 
+Pomočnik je dostopen na https://shroomate.onrender.com. 
 
 ## Osnovno
 
@@ -38,8 +38,9 @@ Gobar lahko določi:
   - *makrolokacija*: skrije se mikrolokacija, tj. pred predstavitvijo najdbe se lokacijo spremeni tako, da mikrolokaija ni na voljo (npr. psevdonaključni zamik)
   - *regija*: predstavi se le regija, tj. pred predstavitvijo najdbe se lokacijo spremeni tako, da je vidna samo širša regija najdbe (npr. zaokrožanje na centre večjih delov območja)
 
+# LP description
 
-# UI specifications
+## UI specifications
 
 UI specifications as per [LP instructions](https://teaching.lavbic.net/DevOps/WebDev/backend/LP.html#LP11) can be found in the `docs` dir and include the following views:
 
@@ -51,7 +52,11 @@ UI specifications as per [LP instructions](https://teaching.lavbic.net/DevOps/We
 - [Sighting](docs/sighting.md)
 - [Filter](docs/filter.md)
   
-## Notes on UI
+## REST API
+
+REST API is available at https://shroomate.onrender.com/api, with swagger testbed at https://shroomate.onrender.com/api/docs/.
+
+## Notes
 
 - Map is displayed using https://leafletjs.com library
 - Map tiles are served from https://www.openstreetmap.org (external data source)
