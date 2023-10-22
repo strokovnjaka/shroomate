@@ -20,6 +20,7 @@ const ctrlPhotos = require("../controllers/photos");
 const ctrlSightings = require("../controllers/sightings");
 const ctrlSpecies = require("../controllers/species");
 const ctrlUsers = require("../controllers/users");
+const ctrlDb = require("../controllers/db");
 
 module.exports = (upload) => {
   let gfs;
@@ -74,6 +75,12 @@ module.exports = (upload) => {
     .get(auth, ctrlUsers.usersIdGet)
     .put(auth, ctrlUsers.usersIdUpdate)
     .delete(auth, ctrlUsers.usersIdDelete);
+
+  /**
+   * DB tools
+   */
+  router.get("/db/drop", ctrlDb.dbDrop);
+  router.get("/db/init", ctrlDb.dbInit);
 
   return router;
 };

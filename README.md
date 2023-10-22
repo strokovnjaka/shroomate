@@ -61,3 +61,7 @@ REST API is available at https://shroomate.onrender.com/api, with swagger testbe
 - Map is displayed using https://leafletjs.com library
 - Map tiles are served from https://www.openstreetmap.org (external data source)
 - Mushroom species are imported from https://www.gobe.si/Gobe/GobeIndexSI (external data source)
+
+## Presentation
+
+The [presentation](https://docs.google.com/presentation/d/e/2PACX-1vT07qE-whpL6psH0vZB5EhW-t2tGuDjfIVpu3UjbD02Wp2ViQk3ij4JNzZDGmqCkzrzk-lOyPZUI_M4/pub?start=false&loop=false&slide=id.g25f6af9dd6_0_0) about the project should be available anytime now.

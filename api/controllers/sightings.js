@@ -44,21 +44,7 @@ const Species = mongoose.model("Species");
  */
 const sightingsGet = async (req, res) => {
   try {
-    let sightings = await Sighting.aggregate([
-      {
-        $geoNear: {
-          near: {
-            type: "Point",
-            coordinates: [lon, lat],
-          },
-          distanceField: "distance",
-          spherical: true,
-          maxDistance: distance,
-        },
-      },
-      { $project: { comments: false, id: false } },
-      { $limit: nResults },
-    ]);
+    let sightings = await Sighting.find();
     res.status(200).json(sightings || []);
   } catch (err) {
     res.status(500).json({ message: err.message });
