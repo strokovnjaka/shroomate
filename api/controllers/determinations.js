@@ -43,7 +43,7 @@ const Sighting = mongoose.model("Sighting");
  *         type: string
  *         description: timestamp of sighting
  *         example: 2023-10-19T16:35:50.428Z
- *        required:
+ *       required:
  *        - sighting
  *        - species
  *   responses:

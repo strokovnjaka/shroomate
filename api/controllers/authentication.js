@@ -58,7 +58,7 @@ require('../helpers/email')
  *       schema:
  *        $ref: '#/components/schemas/ErrorMessage'
  *       example:
- *        message: This email is already taken.
+ *        message: this account is already taken
  *    '500':
  *     description: Internal Server Error, with error message.
  *     content:
@@ -73,8 +73,8 @@ const signup = async (req, res) => {
     // see register in https://github.com/Arihantjain1/registration_with_email_verification
     if (!req.body.name || !req.body.email || !req.body.password)
       return res.status(400).json({ message: "all fields required." });
-    if (await User.findOne({ email: req.body.email }).exec())
-      return res.status(409).json({ message: "this email is already taken" });
+    if (await User.findOne({ $or: [{ email: req.body.email }, { name: req.body.name }]}).exec())
+      return res.status(409).json({ message: "this account is already taken" });
     // TODO: check if email already exists
     const user = new User();
     user.name = req.body.name;
@@ -86,7 +86,11 @@ const signup = async (req, res) => {
     // res.status(200).json({ token: user.generateJwt() });
     // send_email(user.email, 'verify_account', { link: 'http://localhost:3000/verify/', token: user.signup_token })
     //   .then(() => {
-        res.status(200).json({ message: `sign up successful, verification link will be sent to your email; for now signup token is ${user.signup_token}` })
+        res.status(200).json({
+          message: "Sign up successful, verification link will be sent to your email; for now email and signup token are attached...",
+          token: user.signup_token,
+          email: user.email,
+        })
     //   })
     //   .catch(error => {
     //     res.status(500).json({ message: error });
@@ -245,7 +249,8 @@ const login = (req, res) => {
           return res.status(401).json({ message: info.message });
         if (!user.enabled)
           return res.status(401).json({ message: "account has been disabled" });
-        return res.status(200).json({ token: user.generateJwt() });
+        const { hash, salt, signup_token, ...rest } = user.toObject();
+        return res.status(200).json({ token: user.generateJwt(), user: rest });
       })(req, res);
   } catch (err) {
     res.status(500).json({ message: err.message });

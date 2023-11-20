@@ -8,7 +8,6 @@
     "start": "node app.js",
     "create:db-init": "cd data; node ./db_init.js; cd ..",
     "clean:db-init": "rm data/db_*.json",
-
     "drop:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.dropDatabase()'\"",
     "copy:db-docker": "docker cp data/db_species.json web-dev-mongo-db:/db_species.json; docker cp data/db_users.json web-dev-mongo-db:/db_users.json",
     "clean:db-docker": "docker exec -it web-dev-mongo-db rm /db_species.json /db_users.json",
@@ -16,12 +15,12 @@
     "init:db-docker": "npm run drop:db-docker; npm run create:db-init; npm run copy:db-docker; npm run import:db-docker; npm run clean:db-docker",
     "delete:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.Species.deleteMany({})'\"",
     "view:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.Species.find()'\"",
-
     "transfer:db-docker-atlas": "docker exec -it web-dev-mongo-db bash -c \"mongodump -h localhost -d shroomate -o ./\"; docker exec -it web-dev-mongo-db bash -c \"mongorestore --drop --uri mongodb+srv://app@shroomate.bcxlfpk.mongodb.net/shroomate ./shroomate\"; docker exec -it web-dev-mongo-db bash -c \"rm -rf ./shroomate\""
   },
   "dependencies": {
     "axios": "^1.5.1",
     "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "~4.18.2",
     "express-jwt": "^8.4.1",

@@ -1,0 +1,51 @@
+<div class="modal-header">
+  <h4 class="modal-title">{{title}}</h4>
+  <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+</div>
+<div class="modal-body">
+  <div *ngIf="formError" class="form-group">
+    <div class="alert alert-dark p-2 mt-4" role="alert">
+      <i class="fas fa-exclamation-triangle pe-2"></i>{{ formError }}
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="species" class="form-label mb-1 mt-3">Species</label>
+    <select class="form-select" id="species" name="species" aria-label="Species" [(ngModel)]="sighting.species">
+      <option *ngFor="let s of species" [value]="s._id">{{s.latin_name}}</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="name" class="form-label mb-1 mt-3">Visibility</label>
+    <select class="form-select" id="visibility" name="visibility" aria-label="Visibility"
+      [(ngModel)]="sighting.visibility">
+      <option value="me">only me</option>
+      <option value="friends">friends</option>
+      <option value="everyone">everyone</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="note" class="form-label mb-1 mt-3">Note</label>
+    <input type="name" class="form-control form-control-sm" id="note" name="note" [(ngModel)]="sighting.note" />
+  </div>
+  <div class="form-group">
+    <label for="photos" class="form-label mb-1 mt-3">Photos</label>
+    <input type="file" class="form-control form-control-sm" accept="image/*" multiple (change)="selectFiles($event)" />
+    <div class="d-flex flex-row mb-1 mt-2">
+      <div *ngFor='let preview of previews' class="p-2"> 
+        <img [src]="preview" class="preview">
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="timestamp" class="form-label mb-1 mt-3">Date and time</label>
+    <input type="name" class="form-control form-control-sm" id="timestamp" name="timestamp" [(ngModel)]="sighting.timestamp" />
+  </div>
+  <div class="form-group">
+    <label for="position" class="form-label mb-1 mt-3">Position</label>
+    <input type="name" class="form-control form-control-sm" id="position" name="position" [(ngModel)]="sighting.position" />
+  </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Cross click')">Cancel</button>
+  <button ngbAutofocus type="button" class="btn btn-primary" (click)="save()">Save</button>
+</div>

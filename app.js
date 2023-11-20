@@ -7,6 +7,7 @@ const express = require("express");
 const path = require("path");
 const bodyParser = require("body-parser");
 const passport = require("passport");
+const cors = require("cors");
 
 /**
  * Swagger and OpenAPI
@@ -94,6 +95,7 @@ The application supports:
  */
 const port = process.env.PORT || 3000;
 const app = express();
+app.use(cors());
 
 const methodOverride = require('method-override');
 app.use(methodOverride('_method'));
@@ -104,13 +106,12 @@ app.use(methodOverride('_method'));
 const upload = require("./api/models/db.js");
 require("./api/config/passport.js");
 
-const hbsRouter = require("./hbs/routes/hbs.js");
 const apiRouter = require("./api/routes/api.js")(upload);
 
 /**
  * Static pages
  */
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "angular", "build")));
 
 /**
  * Passport
@@ -123,21 +124,16 @@ app.use(passport.initialize());
 app.use(bodyParser.urlencoded({ extended: false }));
 
 /**
- * View engine (HBS) setup
- */
-app.set("views", path.join(__dirname, "hbs", "views"));
-app.set("view engine", "hbs");
-require("./hbs/views/helpers/hbsh.js");
-
-/**
- * HBS routing
- */
-app.use("/", hbsRouter);
-
-/**
  * API routing
  */
 app.use("/api", apiRouter);
+
+/**
+ * Angular routing
+ */
+app.get("*", (req, res) => {
+  res.sendFile(path.join(__dirname, "angular", "build", "index.html"));
+});
 
 /**
  * Swagger file and explorer

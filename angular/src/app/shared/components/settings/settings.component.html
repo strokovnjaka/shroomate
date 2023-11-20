@@ -1,0 +1,48 @@
+<div class="modal-header">
+  <h4 class="modal-title">My account settings</h4>
+  <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+</div>
+<div class="modal-body">
+  <div *ngIf="formError" class="form-group">
+    <div class="alert alert-dark p-2 mt-4" role="alert">
+      <i class="fas fa-exclamation-triangle pe-2"></i>{{ formError }}
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="name" class="form-label mb-1">Name</label>
+    <input type="name" disabled class="form-control form-control-sm" id="name" name="name" [(ngModel)]="settings.name" />
+  </div>
+  <div class="form-group">
+    <label for="email" class="form-label mb-1 mt-3">Email</label>
+    <input type="text" disabled class="form-control form-control-sm" id="email" name="email" [(ngModel)]="settings.email" />
+  </div>
+  <div class="form-group">
+    <label for="location_friends" class="form-label mb-1 mt-3">Hide your sightings' location for friends</label>
+    <select class="form-select" id="location_friends" name="location_friends" aria-label="Location friends"
+      [(ngModel)]="settings.location_friends">
+      <option value="micro">micro</option>
+      <option value="macro">macro</option>
+      <option value="region">region</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="location_everyone" class="form-label mb-1 mt-3">Hide your sightings' location for everyone</label>
+    <select class="form-select" id="location_everyone" name="location_everyone" aria-label="Location everyone"
+      [(ngModel)]="settings.location_everyone">
+      <option value="micro">micro</option>
+      <option value="macro">macro</option>
+      <option value="region">region</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="friends" class="form-label mb-1 mt-3">My friends</label>
+    <select class="form-select" id="friends" name="friends" multiple aria-label="My friends"
+      [(ngModel)]="settings.friends">
+      <option *ngFor="let u of others()" [value]="u._id">{{u.name}}</option>
+    </select>
+  </div>
+</div>
+<div class="modal-footer">
+  <button  type="button" class="btn btn-secondary" (click)="activeModal.dismiss('Cross click')">Cancel</button>
+  <button ngbAutofocus type="button" class="btn btn-primary" (click)="save()">Save</button>
+</div>

@@ -170,9 +170,11 @@ const sightingsIdGet = async (req, res) => {
  *        lon:
  *         type: number
  *         description: longitude of sighting's position
+ *         example: 14.488902311611735
  *        lat:
  *         type: number
  *         description: latitude of sighting's position
+ *         example: 46.05794020972986
  *        timestamp:
  *         type: string
  *         format: date-time
@@ -185,12 +187,12 @@ const sightingsIdGet = async (req, res) => {
  *         description: photos of the sighting
  *         minItems: 1
  *         maxItems: 3
- *        required:
- *         - user
- *         - species
- *         - lon
- *         - lat
- *         - photos
+ *       required:
+ *        - user
+ *        - species
+ *        - lon
+ *        - lat
+ *        - photos
  *   responses:
  *    '201':
  *     description: Created, with comment details.

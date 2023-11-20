@@ -1,0 +1,32 @@
+<div class="modal-header">
+  <h4 class="modal-title">Sign up</h4>
+  <button type="button" class="btn-close" aria-label="Close" (click)="activeModal.dismiss('Cross click')"></button>
+</div>
+<div class="modal-body">
+  <p class="already-have">
+    Already have an account? <a (click)="ratherLogin()" style="cursor: pointer" class="link-primary">Log in</a>
+  </p>
+  <div *ngIf="formError" class="form-group">
+    <div class="alert alert-dark p-2 mt-4" role="alert">
+      <i class="fas fa-exclamation-triangle pe-2"></i>{{ formError }}
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="name" class="form-label mb-1">Name</label>
+    <input ngbAutofocus type="text" class="form-control form-control-sm" id="name" name="name" 
+      [(ngModel)]="credentials.name" />
+  </div>
+  <div class="form-group">
+    <label for="email" class="form-label mb-1 mt-3">Email</label>
+    <input type="text" class="form-control form-control-sm" id="email" name="email"
+      [(ngModel)]="credentials.email" />
+  </div>
+  <div class="form-group">
+    <label for="password" class="form-label mb-1 mt-3">Password</label>
+    <input type="password" class="form-control form-control-sm" id="password" name="password" 
+      [(ngModel)]="credentials.password" (keydown.enter)="signup()" />
+  </div>
+</div>
+<div class="modal-footer">
+  <button type="button" class="btn btn-primary" (click)="signup()">Sign up for free</button>
+</div>

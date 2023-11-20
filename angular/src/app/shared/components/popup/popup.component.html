@@ -1,0 +1,17 @@
+<div class="d-flex flex-column">
+  <div class="p-2" *ngFor="let photo of sighting.photos">
+    <img src="{{photo.filename | photoUrl}}" alt="img {{photo.filename}}" />
+  </div>
+</div>
+<p>
+  <b>{{ sighting.species | speciesName }}</b>
+</p>
+<p>
+  Seen by {{ sighting.user | userName }} {{ sighting.timestamp | dateAgo }}
+</p>
+<p *ngIf="sighting.note as note">Note: {{note}}</p>
+<!-- // <br />
+// You confirmed species on 22.9.2022 13:17
+// <br />
+// <button>Revoke confirmation</button>
+//  -->
