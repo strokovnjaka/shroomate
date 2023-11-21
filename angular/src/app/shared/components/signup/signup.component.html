@@ -28,5 +28,5 @@
   </div>
 </div>
 <div class="modal-footer">
-  <button type="button" class="btn btn-primary" (click)="signup()">Sign up for free</button>
+  <button [disabled]="!isConnected()" type="button" class="btn btn-primary" (click)="signup()">Sign up for free</button>
 </div>

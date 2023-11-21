@@ -15,7 +15,8 @@
     "init:db-docker": "npm run drop:db-docker; npm run create:db-init; npm run copy:db-docker; npm run import:db-docker; npm run clean:db-docker",
     "delete:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.Species.deleteMany({})'\"",
     "view:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.Species.find()'\"",
-    "transfer:db-docker-atlas": "docker exec -it web-dev-mongo-db bash -c \"mongodump -h localhost -d shroomate -o ./\"; docker exec -it web-dev-mongo-db bash -c \"mongorestore --drop --uri mongodb+srv://app@shroomate.bcxlfpk.mongodb.net/shroomate ./shroomate\"; docker exec -it web-dev-mongo-db bash -c \"rm -rf ./shroomate\""
+    "transfer:db-docker-atlas": "docker exec -it web-dev-mongo-db bash -c \"mongodump -h localhost -d shroomate -o ./\"; docker exec -it web-dev-mongo-db bash -c \"mongorestore --drop --uri mongodb+srv://app@shroomate.bcxlfpk.mongodb.net/shroomate ./shroomate\"; docker exec -it web-dev-mongo-db bash -c \"rm -rf ./shroomate\"",
+    "test": "mocha test --bail --exit --reporter mochawesome --reporter-options autoOpen=true,reportDir=test/report,reportFilename=report,json=false"
   },
   "dependencies": {
     "axios": "^1.5.1",
@@ -36,5 +37,12 @@
     "rand-token": "^1.0.1",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^5.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chromedriver": "^119.0.1",
+    "mocha": "^10.2.0",
+    "mochawesome": "^7.1.3",
+    "selenium-webdriver": "^4.15.0"
   }
 }

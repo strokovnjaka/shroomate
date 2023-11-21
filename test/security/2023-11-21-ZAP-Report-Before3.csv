@@ -1,0 +1,1001 @@
+ID,Req. Timestamp,Resp. Timestamp,Method,URL,Code,Reason,RTT,Size Resp. Header,Size Resp. Body
+53339,Tue Nov 21 13:48:32 CET 2023,Tue Nov 21 13:48:32 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,56,269,563
+53340,Tue Nov 21 13:48:32 CET 2023,Tue Nov 21 13:48:32 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,59,288,306
+53341,Tue Nov 21 13:48:32 CET 2023,Tue Nov 21 13:48:33 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,74,288,319
+53342,Tue Nov 21 13:48:33 CET 2023,Tue Nov 21 13:48:33 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,48,288,320
+53343,Tue Nov 21 13:48:33 CET 2023,Tue Nov 21 13:48:33 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,66,288,314
+53344,Tue Nov 21 13:48:33 CET 2023,Tue Nov 21 13:48:33 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,56,288,315
+53345,Tue Nov 21 13:48:33 CET 2023,Tue Nov 21 13:48:33 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,48,288,329
+53346,Tue Nov 21 13:48:33 CET 2023,Tue Nov 21 13:48:33 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,71,288,330
+53347,Tue Nov 21 13:48:34 CET 2023,Tue Nov 21 13:48:34 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,65,288,303
+53348,Tue Nov 21 13:48:34 CET 2023,Tue Nov 21 13:48:34 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,102,288,316
+53349,Tue Nov 21 13:48:35 CET 2023,Tue Nov 21 13:48:35 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,77,288,317
+53350,Tue Nov 21 13:48:35 CET 2023,Tue Nov 21 13:48:35 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,53,288,311
+53351,Tue Nov 21 13:48:35 CET 2023,Tue Nov 21 13:48:35 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,103,288,312
+53352,Tue Nov 21 13:48:36 CET 2023,Tue Nov 21 13:48:36 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,74,288,326
+53353,Tue Nov 21 13:48:36 CET 2023,Tue Nov 21 13:48:36 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,45,288,327
+53354,Tue Nov 21 13:48:36 CET 2023,Tue Nov 21 13:48:36 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,54,269,500
+53355,Tue Nov 21 13:48:36 CET 2023,Tue Nov 21 13:48:36 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,35,269,419
+53356,Tue Nov 21 13:48:37 CET 2023,Tue Nov 21 13:48:37 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,36,269,419
+53357,Tue Nov 21 14:00:06 CET 2023,Tue Nov 21 14:00:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,224,269,504
+53358,Tue Nov 21 14:00:06 CET 2023,Tue Nov 21 14:00:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,70,269,504
+53359,Tue Nov 21 14:00:06 CET 2023,Tue Nov 21 14:00:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,76,269,504
+53360,Tue Nov 21 14:00:06 CET 2023,Tue Nov 21 14:00:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,66,269,504
+53361,Tue Nov 21 14:00:06 CET 2023,Tue Nov 21 14:00:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,80,269,504
+53362,Tue Nov 21 14:00:07 CET 2023,Tue Nov 21 14:00:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,51,269,504
+53363,Tue Nov 21 14:00:07 CET 2023,Tue Nov 21 14:00:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,113,269,500
+53364,Tue Nov 21 14:00:47 CET 2023,Tue Nov 21 14:00:47 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,56,269,504
+53365,Tue Nov 21 14:01:27 CET 2023,Tue Nov 21 14:01:27 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,57,269,504
+53366,Tue Nov 21 14:02:07 CET 2023,Tue Nov 21 14:02:08 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,51,269,504
+53367,Tue Nov 21 14:02:08 CET 2023,Tue Nov 21 14:02:08 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,51,269,504
+53368,Tue Nov 21 14:02:08 CET 2023,Tue Nov 21 14:02:08 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,54,269,504
+53369,Tue Nov 21 14:02:08 CET 2023,Tue Nov 21 14:02:08 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,65,269,500
+53370,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,128,277,46
+53371,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,200,OK,152,269,518
+53372,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,129,277,46
+53373,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,127,277,39
+53374,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,161,273,43
+53375,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,146,277,46
+53376,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,162,277,46
+53377,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,151,269,504
+53378,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,400,Bad Request,6,276,34
+53379,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,244,269,462
+53380,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,79,273,43
+53381,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,GET,https://localhost:3000,200,OK,216,350,5267
+53382,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,57,277,39
+53383,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,238,277,46
+53384,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,16,277,46
+53385,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,6,273,43
+53386,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/,404,Not Found,2,304,149
+53387,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,400,Bad Request,2,276,34
+53388,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,4,277,46
+53389,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,4,277,46
+53390,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,1,277,46
+53391,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,9,277,29
+53392,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/,404,Not Found,1,304,149
+53393,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,3,277,46
+53394,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,2,277,46
+53395,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,2,277,46
+53396,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/%40,403,Forbidden,4,274,48
+53397,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,4,277,46
+53398,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,11,277,29
+53399,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,11,350,5267
+53400,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/%2B,403,Forbidden,10,274,48
+53401,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,11,277,46
+53402,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/%00,403,Forbidden,5,274,48
+53403,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/%7C,403,Forbidden,2,274,48
+53404,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,23,277,29
+53405,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,GET,https://localhost:3000/api/photos,200,OK,5,350,5267
+53406,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,9,277,29
+53407,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,16,269,462
+53408,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,200,OK,9,269,518
+53409,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,17,269,462
+53410,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,200,OK,10,269,518
+53411,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,93,269,504
+53412,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,17,274,32
+53413,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,93,182,336256
+53414,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,1,276,34
+53415,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,24,269,462
+53416,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,POST,https://localhost:3000/api/login,200,OK,18,269,518
+53417,Tue Nov 21 14:08:31 CET 2023,Tue Nov 21 14:08:31 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,2,277,46
+53418,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,29,287,139
+53419,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,200,OK,23,269,518
+53420,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,10,274,58
+53421,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/assets,301,Moved Permanently,2,332,179
+53422,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,17,274,58
+53423,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,10,287,139
+53424,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,103,269,504
+53425,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,200,OK,22,269,518
+53426,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/latest,200,OK,5,350,5267
+53427,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/api/photos/,200,OK,11,350,5267
+53428,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,14,287,139
+53429,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,8,350,5267
+53430,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,7,287,139
+53431,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/api/photos/,200,OK,3,350,5267
+53432,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,6,350,5267
+53433,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,13,269,462
+53434,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/api/photos/%40,404,Not Found,10,274,29
+53435,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,200,OK,11,269,518
+53436,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,200,OK,12,269,518
+53437,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,33,269,462
+53438,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/api/photos/%2B,404,Not Found,18,274,29
+53439,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,200,OK,18,269,518
+53440,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,400,Bad Request,3,276,34
+53441,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,99,269,504
+53442,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,22,269,462
+53443,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,400,Bad Request,1,276,34
+53444,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,13,356,3614
+53445,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/api/photos/%00,404,Not Found,13,274,29
+53446,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,7,277,29
+53447,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,9,287,141
+53448,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,9,277,29
+53449,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,7,287,141
+53450,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/api/photos/%7C,404,Not Found,11,274,29
+53451,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/ngsw.json?=,200,OK,11,356,3614
+53452,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,7,287,141
+53453,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,7,277,29
+53454,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=,200,OK,4,356,3614
+53455,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,9,287,141
+53456,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,11,277,29
+53457,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%40,200,OK,10,356,3614
+53458,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%2B,200,OK,3,356,3614
+53459,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,21,269,462
+53460,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%00,200,OK,3,356,3614
+53461,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%7C,200,OK,1,356,3614
+53462,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,56,269,435
+53463,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,84,269,504
+53464,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,7,287,184
+53465,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,8,287,185
+53466,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,14,287,185
+53467,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,10,287,191
+53468,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,10,287,185
+53469,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,13,269,462
+53470,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,74,269,504
+53471,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,12,269,435
+53472,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:32 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,7,287,202
+53473,Tue Nov 21 14:08:32 CET 2023,Tue Nov 21 14:08:33 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,57,269,504
+53474,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,6,287,203
+53475,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,9,287,203
+53476,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,27,287,209
+53477,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,11,287,203
+53478,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,73,269,504
+53479,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,47,269,504
+53480,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,90,269,504
+53481,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,61,269,504
+53482,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,55,269,504
+53483,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:33 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,64,269,504
+53484,Tue Nov 21 14:08:33 CET 2023,Tue Nov 21 14:08:34 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,70,269,504
+53485,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000/api/trace.axd,200,OK,134,350,5267
+53486,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000,200,OK,129,350,5267
+53487,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000/api/determinations/trace.axd,200,OK,143,350,5267
+53488,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000/api/users/trace.axd,401,Unauthorized,132,277,46
+53489,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000/api/trace.axd,200,OK,142,350,5267
+53490,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000/api/trace.axd,200,OK,121,350,5267
+53491,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000/elmah.axd,200,OK,199,350,5267
+53492,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000/trace.axd,200,OK,2,350,5267
+53493,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,2,350,5267
+53494,Tue Nov 21 14:18:34 CET 2023,Tue Nov 21 14:18:34 CET 2023,GET,https://localhost:3000/api/photos,200,OK,1,350,5267
+53495,Tue Nov 21 14:18:35 CET 2023,Tue Nov 21 14:18:35 CET 2023,GET,https://localhost:3000/api/photos/trace.axd,404,Not Found,27,274,29
+53496,Tue Nov 21 14:18:35 CET 2023,Tue Nov 21 14:18:35 CET 2023,GET,https://localhost:3000/api/sightings/trace.axd,500,Internal Server Error,17,287,114
+53497,Tue Nov 21 14:18:35 CET 2023,Tue Nov 21 14:18:35 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,18,276,34
+53498,Tue Nov 21 14:18:35 CET 2023,Tue Nov 21 14:18:35 CET 2023,GET,https://localhost:3000/api/verify/trace.axd,200,OK,2,350,5267
+53499,Tue Nov 21 14:18:35 CET 2023,Tue Nov 21 14:18:35 CET 2023,GET,https://localhost:3000/assets,301,Moved Permanently,1,332,179
+53500,Tue Nov 21 14:18:35 CET 2023,Tue Nov 21 14:18:35 CET 2023,GET,https://localhost:3000/assets/trace.axd,200,OK,5,350,5267
+53501,Tue Nov 21 14:18:35 CET 2023,Tue Nov 21 14:18:35 CET 2023,GET,https://localhost:3000/latest,200,OK,1,350,5267
+53502,Tue Nov 21 14:18:35 CET 2023,Tue Nov 21 14:18:35 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,1,350,5267
+53503,Tue Nov 21 14:18:35 CET 2023,Tue Nov 21 14:18:35 CET 2023,GET,https://localhost:3000/latest/trace.axd,200,OK,2,350,5267
+53543,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/api/determinations/.htaccess,200,OK,23,350,5267
+53544,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000,200,OK,13,350,5267
+53545,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/api/users/.htaccess,401,Unauthorized,13,277,46
+53546,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/api/.htaccess,200,OK,25,350,5267
+53547,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/.htaccess,200,OK,2,350,5267
+53548,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,2,350,5267
+53549,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/api/photos,200,OK,1,350,5267
+53550,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/api/photos/.htaccess,404,Not Found,5,274,29
+53551,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/api/sightings/.htaccess,500,Internal Server Error,5,287,114
+53552,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,1,276,34
+53553,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/assets,301,Moved Permanently,4,332,179
+53554,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/api/verify/.htaccess,200,OK,6,350,5267
+53555,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/assets/.htaccess,200,OK,2,350,5267
+53556,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/latest,200,OK,2,350,5267
+53557,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,2,350,5267
+53558,Tue Nov 21 14:28:35 CET 2023,Tue Nov 21 14:28:35 CET 2023,GET,https://localhost:3000/latest/.htaccess,200,OK,1,350,5267
+53559,Tue Nov 21 14:38:35 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/api/.env,200,OK,125,350,5267
+53560,Tue Nov 21 14:38:35 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000,200,OK,54,350,5267
+53561,Tue Nov 21 14:38:35 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/api/users/.env,401,Unauthorized,80,277,46
+53562,Tue Nov 21 14:38:35 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/api/determinations/.env,200,OK,115,350,5267
+53563,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/.env,200,OK,49,350,5267
+53564,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,2,350,5267
+53565,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/api/photos,200,OK,2,350,5267
+53566,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/api/sightings/.env,500,Internal Server Error,24,287,109
+53567,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/api/photos/.env,404,Not Found,31,274,29
+53568,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,18,276,34
+53569,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/assets,301,Moved Permanently,2,332,179
+53570,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/api/verify/.env,200,OK,2,350,5267
+53571,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/assets/.env,200,OK,20,350,5267
+53572,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/latest,200,OK,12,350,5267
+53573,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,2,350,5267
+53574,Tue Nov 21 14:38:36 CET 2023,Tue Nov 21 14:38:36 CET 2023,GET,https://localhost:3000/latest/.env,200,OK,2,350,5267
+53575,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,GET,https://localhost:3000/lfm.php,200,OK,13,350,5267
+53576,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,GET,https://localhost:3000/api/determinations/actuator/health,200,OK,2,350,5267
+53577,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,GET,https://localhost:3000/api/determinations/actuator/health,200,OK,10,350,5267
+53578,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,GET,https://localhost:3000/.idea/WebServers.xml,200,OK,2,350,5267
+53579,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,64,277,46
+53580,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,65,277,29
+53581,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,DELETE,https://localhost:3000/api/determinations/%3C,401,Unauthorized,74,277,46
+53582,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,68,277,46
+53583,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,74,277,46
+53584,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,13,277,46
+53585,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,PUT,https://localhost:3000/api/users/%3C,403,Forbidden,120,274,48
+53586,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,121,273,43
+53587,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,16,277,46
+53588,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,91,277,29
+53589,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,29,277,29
+53590,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,DELETE,https://localhost:3000/api/determinations/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,401,Unauthorized,14,277,46
+53591,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,8,273,43
+53592,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,4,277,46
+53593,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,PUT,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,403,Forbidden,10,274,48
+53594,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,5,277,46
+53595,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,5,277,46
+53596,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,GET,https://localhost:3000,200,OK,123,350,5267
+53597,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,DELETE,https://localhost:3000/api/users/%3C,401,Unauthorized,120,277,46
+53598,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,GET,https://localhost:3000/config/databases.yml,200,OK,123,350,5267
+53599,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,DELETE,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,401,Unauthorized,7,277,46
+53600,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,7,277,46
+53601,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,7,277,46
+53602,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,PUT,https://localhost:3000/api/users/system-property%28%27xsl%3Avendor%27%29%2F%3E,403,Forbidden,2,274,48
+53603,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,6,277,46
+53604,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,5,273,43
+53605,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,1,277,46
+53606,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,6,277,29
+53607,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,6,277,29
+53608,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,DELETE,https://localhost:3000/api/determinations/system-property%28%27xsl%3Avendor%27%29%2F%3E,401,Unauthorized,2,277,46
+53609,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,PUT,https://localhost:3000/api/users/%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,403,Forbidden,18,274,48
+53610,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,8,277,46
+53611,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,DELETE,https://localhost:3000/api/users/system-property%28%27xsl%3Avendor%27%29%2F%3E,401,Unauthorized,8,277,46
+53612,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,17,277,46
+53613,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,29,277,46
+53614,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,DELETE,https://localhost:3000/api/determinations/%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,401,Unauthorized,23,277,46
+53615,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,104,287,105
+53616,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,GET,https://localhost:3000/config/database.yml,200,OK,36,350,5267
+53617,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,33,350,5267
+53618,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,17,277,46
+53619,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,17,277,46
+53620,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,17,277,46
+53621,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,42,277,29
+53622,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,DELETE,https://localhost:3000/api/users/%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,401,Unauthorized,29,277,46
+53623,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,PUT,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,403,Forbidden,31,274,48
+53624,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,43,273,43
+53625,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,35,277,29
+53626,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,PUT,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,403,Forbidden,7,274,48
+53627,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,DELETE,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,401,Unauthorized,3,277,46
+53628,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,3,277,46
+53629,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,3,277,46
+53630,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,PUT,https://localhost:3000/api/users/%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,403,Forbidden,4,274,48
+53631,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,2,277,46
+53632,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,5,277,46
+53633,Tue Nov 21 14:48:36 CET 2023,Tue Nov 21 14:48:36 CET 2023,DELETE,https://localhost:3000/api/determinations/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,401,Unauthorized,1,277,46
+53634,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,DELETE,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,401,Unauthorized,5,277,46
+53635,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,5,277,46
+53636,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,18,277,29
+53637,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,7,277,46
+53638,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,PUT,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,403,Forbidden,5,274,48
+53639,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,DELETE,https://localhost:3000/api/determinations/%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,401,Unauthorized,12,277,46
+53640,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,8,277,46
+53641,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,13,277,46
+53642,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,DELETE,https://localhost:3000/api/users/%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,401,Unauthorized,13,277,46
+53643,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,20,277,46
+53644,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,44,273,43
+53645,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,28,277,29
+53646,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,45,277,29
+53647,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,14,277,46
+53648,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,DELETE,https://localhost:3000/api/determinations/%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,401,Unauthorized,17,277,46
+53649,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/.git/config,200,OK,33,350,5267
+53650,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/photos,200,OK,38,350,5267
+53651,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,13,277,46
+53652,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,DELETE,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,401,Unauthorized,14,277,46
+53653,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,14,277,46
+53654,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,16,277,29
+53655,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,17,273,43
+53656,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,15,277,29
+53657,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,30,287,139
+53658,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,13,277,29
+53659,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,8,277,46
+53660,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,8,277,46
+53661,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,DELETE,https://localhost:3000/api/determinations/%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,401,Unauthorized,13,277,46
+53662,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,13,277,46
+53663,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,18,277,29
+53664,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,16,273,43
+53665,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/.svn/entries,200,OK,30,350,5267
+53666,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,28,287,139
+53667,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,70,277,29
+53668,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,45,277,46
+53669,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,52,277,46
+53670,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,56,277,46
+53671,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,90,273,43
+53672,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,200,OK,91,269,491
+53673,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/sightings/%3C,500,Internal Server Error,63,287,106
+53674,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,132,287,139
+53675,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/photos/%3C,404,Not Found,130,274,29
+53676,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,93,276,34
+53677,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/sightings/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,500,Internal Server Error,56,287,163
+53678,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,69,273,43
+53679,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,102,277,29
+53680,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/users/%3C,401,Unauthorized,150,277,46
+53681,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/.svn/wc.db,200,OK,168,350,5267
+53682,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,208,287,162
+53683,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/verify/?email=%3C&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,38,274,58
+53684,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,401,Unauthorized,23,277,46
+53685,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,30,277,29
+53686,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,28,273,43
+53687,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/photos/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,404,Not Found,46,274,29
+53688,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,500,Internal Server Error,48,287,139
+53689,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/assets,301,Moved Permanently,28,332,179
+53690,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/sightings/system-property%28%27xsl%3Avendor%27%29%2F%3E,500,Internal Server Error,30,287,136
+53691,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,200,OK,85,269,491
+53692,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/photos/system-property%28%27xsl%3Avendor%27%29%2F%3E,404,Not Found,21,274,29
+53693,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/sightings/%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,500,Internal Server Error,8,287,171
+53694,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,18,273,43
+53695,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,15,277,29
+53696,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/verify/?email=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,15,274,58
+53697,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/users/system-property%28%27xsl%3Avendor%27%29%2F%3E,401,Unauthorized,3,277,46
+53698,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,200,OK,19,269,491
+53699,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/CVS/root,200,OK,46,350,5267
+53700,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/sightings/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,500,Internal Server Error,44,287,167
+53701,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/photos/%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,404,Not Found,58,274,29
+53702,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,60,273,43
+53703,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,77,277,29
+53704,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/users/%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,401,Unauthorized,61,277,46
+53705,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/sightings/%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,500,Internal Server Error,40,287,165
+53706,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,200,OK,64,269,491
+53707,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/verify/?email=system-property%28%27xsl%3Avendor%27%29%2F%3E&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,72,274,58
+53708,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/photos/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,404,Not Found,48,274,29
+53709,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,401,Unauthorized,23,277,46
+53710,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=%3C,200,OK,61,350,5267
+53711,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/sightings/%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,500,Internal Server Error,19,288,394
+53712,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,29,277,29
+53713,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,135,287,135
+53714,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/latest,200,OK,67,350,5267
+53715,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/server-status,200,OK,71,350,5267
+53716,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,200,OK,13,350,5267
+53717,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/photos/%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,404,Not Found,16,274,29
+53718,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,401,Unauthorized,15,277,46
+53719,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/verify/?email=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,17,274,58
+53720,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/sightings/%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,500,Internal Server Error,9,287,183
+53721,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/photos/%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,404,Not Found,6,274,29
+53722,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/users/%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,401,Unauthorized,3,277,46
+53723,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=system-property%28%27xsl%3Avendor%27%29%2F%3E,200,OK,1,350,5267
+53724,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,1,350,5267
+53725,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/verify/?email=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,6,274,58
+53726,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/photos/%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,404,Not Found,6,274,29
+53727,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/users/%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,401,Unauthorized,2,277,46
+53728,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/verify/?email=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,7,274,58
+53729,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/core,200,OK,6,350,5267
+53730,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,200,OK,3,350,5267
+53731,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/verify/?email=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,5,274,58
+53732,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/sftp-config.json,200,OK,3,350,5267
+53733,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,200,OK,2,350,5267
+53734,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:37 CET 2023,GET,https://localhost:3000/api/verify/?email=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,7,274,58
+53735,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,200,OK,10,350,5267
+53736,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%3C,200,OK,12,356,3614
+53737,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/WS_FTP.ini,200,OK,14,350,5267
+53738,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/api/verify/?email=joze%40shrooma.te&token=%3C,404,Not Found,14,274,58
+53739,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,200,OK,6,356,3614
+53740,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,200,OK,13,350,5267
+53741,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=system-property%28%27xsl%3Avendor%27%29%2F%3E,200,OK,7,356,3614
+53742,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,200,OK,3,350,5267
+53743,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/ws_ftp.ini,200,OK,9,350,5267
+53744,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,200,OK,1,356,3614
+53745,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/api/verify/?email=joze%40shrooma.te&token=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E,404,Not Found,25,274,58
+53746,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,200,OK,3,356,3614
+53747,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/WS_FTP.INI,200,OK,3,350,5267
+53748,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%3Cxsl%3Avalue-of+select%3D%22document%28%27http%3A%2F%2Flocalhost%3A22%27%29%22%2F%3E,200,OK,2,356,3614
+53749,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%3Cxsl%3Avariable+name%3D%22rtobject%22+select%3D%22runtime%3AgetRuntime%28%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22process%22+select%3D%22runtime%3Aexec%28%24rtobject%2C%27erroneous_command%27%29%22%2F%3E%0A%3Cxsl%3Avariable+name%3D%22waiting%22+select%3D%22process%3AwaitFor%28%24process%29%22%2F%3E%0A%3Cxsl%3Avalue-of+select%3D%22%24process%22%2F%3E,200,OK,4,356,3614
+53750,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/filezilla.xml,200,OK,4,350,5267
+53751,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=%3Cxsl%3Avalue-of+select%3D%22php%3Afunction%28%27exec%27%2C%27erroneous_command+2%3E%26amp%3B1%27%29%22%2F%3E,200,OK,3,356,3614
+53752,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/api/verify/?email=joze%40shrooma.te&token=system-property%28%27xsl%3Avendor%27%29%2F%3E,404,Not Found,16,274,58
+53753,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/sitemanager.xml,200,OK,2,350,5267
+53754,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/api/verify/?email=joze%40shrooma.te&token=%22%2F%3E%3Cxsl%3Avalue-of+select%3D%22system-property%28%27xsl%3Avendor%27%29%22%2F%3E%3C%21--,404,Not Found,6,274,58
+53755,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/FileZilla.xml,200,OK,3,350,5267
+53756,Tue Nov 21 14:48:37 CET 2023,Tue Nov 21 14:48:38 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,99,287,170
+53757,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/winscp.ini,200,OK,2,350,5267
+53758,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/WinSCP.ini,200,OK,1,350,5267
+53759,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/.DS_Store,200,OK,2,350,5267
+53760,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/.php_cs.cache,200,OK,3,350,5267
+53761,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/DEADJOE,200,OK,2,350,5267
+53762,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/sites/default/private/files/backup_migrate/scheduled/test.txt,200,OK,1,350,5267
+53763,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/app/etc/local.xml,200,OK,1,350,5267
+53764,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/server.key,200,OK,2,350,5267
+53765,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/privatekey.key,200,OK,8,350,5267
+53766,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/myserver.key,200,OK,6,350,5267
+53767,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/key.pem,200,OK,2,350,5267
+53768,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/id_rsa,200,OK,2,350,5267
+53769,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/id_dsa,200,OK,2,350,5267
+53770,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/.ssh/id_rsa,200,OK,1,350,5267
+53771,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,57,287,166
+53772,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/.ssh/id_dsa,200,OK,2,350,5267
+53773,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/adminer.php,200,OK,2,350,5267
+53774,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/vb_test.php,200,OK,2,350,5267
+53775,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/CHANGELOG.txt,200,OK,2,350,5267
+53776,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/sites/default/files/.ht.sqlite,200,OK,2,350,5267
+53777,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/composer.json,200,OK,2,350,5267
+53778,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/composer.lock,200,OK,11,350,5267
+53779,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/vim_settings.xml,200,OK,4,350,5267
+53780,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/server-info,200,OK,8,350,5267
+53781,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/phpinfo.php,200,OK,13,350,5267
+53782,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/info.php,200,OK,2,350,5267
+53783,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,71,287,164
+53784,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/i.php,200,OK,1,350,5267
+53785,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/test.php,200,OK,2,350,5267
+53786,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/_wpeprivate/config.json,200,OK,1,350,5267
+53787,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/_framework/blazor.boot.json,200,OK,2,350,5267
+53788,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/.hg,200,OK,2,350,5267
+53789,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/.bzr,200,OK,2,350,5267
+53790,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/._darcs,200,OK,2,350,5267
+53791,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,GET,https://localhost:3000/BitKeeper,200,OK,2,350,5267
+53792,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,46,288,393
+53793,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:38 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,36,287,182
+53794,Tue Nov 21 14:48:38 CET 2023,Tue Nov 21 14:48:39 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,55,287,112
+53795,Tue Nov 21 14:48:39 CET 2023,Tue Nov 21 14:48:39 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,49,287,112
+53796,Tue Nov 21 14:48:39 CET 2023,Tue Nov 21 14:48:39 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,98,287,112
+53797,Tue Nov 21 14:48:39 CET 2023,Tue Nov 21 14:48:39 CET 2023,POST,https://localhost:3000/api/sightings,500,Internal Server Error,59,287,112
+53798,Tue Nov 21 14:52:36 CET 2023,Tue Nov 21 14:52:36 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,92,269,504
+53799,Tue Nov 21 14:52:36 CET 2023,Tue Nov 21 14:52:36 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,60,269,504
+53800,Tue Nov 21 14:52:36 CET 2023,Tue Nov 21 14:52:36 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,59,269,504
+53801,Tue Nov 21 14:58:38 CET 2023,Tue Nov 21 14:58:38 CET 2023,GET,https://localhost:3000/api/login?email=joze@shrooma.te&name=&password=tepec,200,OK,61,350,5267
+53802,Tue Nov 21 14:58:38 CET 2023,Tue Nov 21 14:58:38 CET 2023,GET,https://localhost:3000/api/login?email=zaproxy@example.com&password=ZAP,200,OK,61,350,5267
+53803,Tue Nov 21 14:58:38 CET 2023,Tue Nov 21 14:58:38 CET 2023,GET,https://localhost:3000/api/determinations?sighting=635a62f5dc5d7968e6846914&species=635a62f5dc5d7968e6846914&timestamp=2023-10-19T16:35:50.428Z,200,OK,62,350,5267
+53804,Tue Nov 21 14:58:38 CET 2023,Tue Nov 21 14:58:38 CET 2023,GET,https://localhost:3000/api/messages?content=Zaproxy%20alias%20impedit%20expedita%20quisquam%20pariatur%20exercitationem.%20Nemo%20rerum%20eveniet%20dolores%20rem%20quia%20dignissimos.&recipient=635a62f5dc5d7968e6846914,401,Unauthorized,51,277,46
+53805,Tue Nov 21 14:58:38 CET 2023,Tue Nov 21 14:58:38 CET 2023,GET,https://localhost:3000/api/signup?email=joze@shrooma.te&name=joze&password=tepec,200,OK,2,350,5267
+53806,Tue Nov 21 14:58:38 CET 2023,Tue Nov 21 14:58:38 CET 2023,GET,https://localhost:3000,200,OK,3,350,5267
+53807,Tue Nov 21 14:58:38 CET 2023,Tue Nov 21 14:58:38 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,30,350,5267
+53809,Tue Nov 21 14:58:38 CET 2023,Tue Nov 21 14:58:39 CET 2023,GET,https://localhost:3000/api/photos,200,OK,21,350,5267
+53810,Tue Nov 21 14:58:39 CET 2023,Tue Nov 21 14:58:39 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,1,276,34
+53811,Tue Nov 21 14:58:39 CET 2023,Tue Nov 21 14:58:39 CET 2023,GET,https://localhost:3000/assets,301,Moved Permanently,2,332,179
+53812,Tue Nov 21 14:58:39 CET 2023,Tue Nov 21 14:58:39 CET 2023,GET,https://localhost:3000/latest,200,OK,1,350,5267
+53813,Tue Nov 21 14:58:39 CET 2023,Tue Nov 21 14:58:39 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,1,350,5267
+53814,Tue Nov 21 14:58:38 CET 2023,Tue Nov 21 14:58:39 CET 2023,GET,"https://localhost:3000/api/sightings?lat=46.05794020972986&lon=14.488902311611735&note=note&photos=%5BLorem%20ipsum%20dolor%20sit%20amet,%20consectetur%20adipiscing%20elit.%20Phasellus%20eu%20tortor%20efficitur,Lorem%20ipsum%20dolor%20sit%20amet,%20consectetur%20adipiscing%20elit.%20Phasellus%20eu%20tortor%20efficitur%5D&species=635a62f5dc5d7968e6846914&timestamp=1970-01-01T00:00:00.001Z&visibility=me",200,OK,1193,276,1718535
+53815,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,95,277,46
+53816,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,97,277,46
+53817,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,95,277,46
+53818,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,24,277,46
+53819,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,24,277,46
+53820,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,149,277,39
+53821,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,112,277,46
+53822,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/login,200,OK,172,269,491
+53823,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,47,277,46
+53824,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,46,277,46
+53825,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,116,273,43
+53826,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,36,277,46
+53828,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,17,277,46
+53829,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,17,277,46
+53831,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,109,277,46
+53832,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000,200,OK,149,350,5267
+53833,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,17,277,46
+53834,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,24,277,46
+53835,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,141,277,46
+53836,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,56,277,39
+53837,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,23,277,46
+53838,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,24,277,46
+53839,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,22,277,46
+53840,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,16,277,46
+53841,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,177,269,504
+53842,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,17,350,5267
+53843,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/api,200,OK,18,350,5267
+53844,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/,200,OK,23,350,5267
+53845,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000,200,OK,34,350,5267
+53846,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,13,277,46
+53847,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,13,277,46
+53848,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,26,277,39
+53849,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,7,277,46
+53850,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,179,269,462
+53851,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,22,277,46
+53853,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,8,277,39
+53854,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000,200,OK,6,350,5267
+53855,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/,200,OK,6,350,5267
+53856,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,3,277,46
+53857,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,4,277,46
+53858,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,1,277,46
+53859,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/api,200,OK,1,350,5267
+53860,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,2,350,5267
+53862,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,4,273,43
+53863,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/login,200,OK,6,269,518
+53864,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,2,277,46
+53866,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,6,350,5267
+53867,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,4,277,46
+53868,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/api,200,OK,10,350,5267
+53869,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000/,200,OK,10,350,5267
+53870,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,GET,https://localhost:3000,200,OK,10,350,5267
+53871,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,7,277,39
+53872,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,3,277,46
+53873,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,3,277,46
+53874,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,4,277,46
+53875,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,2,277,46
+53876,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api,200,OK,3,350,5267
+53877,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,2,277,46
+53878,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,2,350,5267
+53880,Tue Nov 21 15:08:40 CET 2023,Tue Nov 21 15:08:40 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,2,277,46
+53881,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,6,277,46
+53882,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,7,277,46
+53883,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,7,277,46
+53884,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/,200,OK,8,350,5267
+53885,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,7,277,46
+53886,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,12,277,39
+53887,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000,200,OK,13,350,5267
+53888,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,11,277,46
+53889,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,11,277,46
+53890,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,10,277,46
+53891,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,10,277,46
+53892,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/photos,200,OK,20,350,5267
+53893,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,9,277,46
+53894,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,11,277,46
+53895,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/determinations,401,Unauthorized,11,277,46
+53896,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,14,277,46
+53897,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,15,277,39
+53898,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,22,350,5267
+53899,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api,200,OK,22,350,5267
+53900,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,21,277,46
+53901,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000,200,OK,16,350,5267
+53902,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/,200,OK,22,350,5267
+53903,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,10,277,46
+53904,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,3,277,46
+53905,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/determinations/635a62f5dc5d7968e6846914,401,Unauthorized,3,277,46
+53906,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,4,277,46
+53907,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,8,277,46
+53908,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,7,277,46
+53909,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,9,277,46
+53910,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,13,277,39
+53911,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,8,277,46
+53912,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000,200,OK,12,350,5267
+53913,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,5,277,46
+53914,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,6,277,46
+53915,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/,200,OK,15,350,5267
+53916,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api,200,OK,16,350,5267
+53917,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,17,350,5267
+53918,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,9,277,46
+53919,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,7,277,46
+53920,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/messages,401,Unauthorized,7,277,46
+53921,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,8,277,46
+53922,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000,200,OK,14,350,5267
+53923,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,8,277,46
+53924,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,15,277,39
+53925,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/sightings,401,Unauthorized,4,277,46
+53926,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,10,277,46
+53927,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/,200,OK,14,350,5267
+53928,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,4,277,46
+53929,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api,200,OK,16,350,5267
+53930,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,10,277,39
+53931,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/,200,OK,9,350,5267
+53932,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000,200,OK,12,350,5267
+53933,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,6,277,46
+53934,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,9,277,46
+53935,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api,200,OK,8,350,5267
+53936,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,24,350,5267
+53937,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,DELETE,https://localhost:3000/api/users/635a62f5dc5d7968e6846914,401,Unauthorized,2,277,46
+53938,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,4,277,46
+53939,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,7,277,39
+53940,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,4,277,46
+53941,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,8,350,5267
+53942,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api,200,OK,7,350,5267
+53943,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000,200,OK,7,350,5267
+53944,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,1,277,46
+53945,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/messages,401,Unauthorized,2,277,46
+53946,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000,200,OK,3,350,5267
+53947,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api,200,OK,3,350,5267
+53948,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,7,350,5267
+53949,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000,200,OK,2,350,5267
+53950,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/login,401,Unauthorized,7,277,39
+53951,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000,200,OK,4,350,5267
+53952,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api,200,OK,5,350,5267
+53953,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,4,350,5267
+53954,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api,200,OK,3,350,5267
+53955,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,2,350,5267
+53956,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,1,350,5267
+53957,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,2,350,5267
+53958,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/,200,OK,54,350,5267
+53959,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/,200,OK,1,350,5267
+53960,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/,200,OK,1,350,5267
+53961,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/,200,OK,1,350,5267
+53962,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/login,200,OK,12,269,518
+53964,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,11,273,43
+53966,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,17,269,462
+53968,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/photos,200,OK,2,350,5267
+53969,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/photos,200,OK,4,350,5267
+53970,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,18,272,29918
+53972,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,5,276,34
+53971,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,114,269,504
+53973,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/photos,200,OK,25,350,5267
+53975,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,17,277,46
+53976,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,10,276,34
+53977,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,80,182,336256
+53978,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,20,272,29918
+53979,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/species,200,OK,41,271,6946
+53980,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,39,274,32
+53981,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:41 CET 2023,GET,https://localhost:3000/api/users,200,OK,35,268,148
+53982,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos,200,OK,872,350,5267
+53983,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,756,276,34
+53984,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,738,272,29918
+53985,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/assets,301,Moved Permanently,712,332,179
+53986,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,766,274,58
+53987,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,767,277,46
+53988,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,741,271,6946
+53989,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,1056,276,1719545
+53990,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,735,274,32
+53991,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,655,269,504
+53992,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/assets,200,OK,16,350,5267
+53993,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,756,269,462
+53994,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,798,182,336256
+53995,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,744,273,43
+53996,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,31,271,6946
+53997,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos,200,OK,46,350,5267
+53998,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,POST,https://localhost:3000/api/login,200,OK,740,269,518
+53999,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,21,277,46
+54000,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,17,272,29918
+54001,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,23,276,34
+54003,Tue Nov 21 15:08:41 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,731,268,148
+54004,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,4,276,34
+54005,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,5,277,46
+54006,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,3,272,29918
+54008,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,7,271,6946
+54009,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos,200,OK,6,350,5267
+54014,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,5,274,32
+54016,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,4,274,32
+54017,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,8,271,6946
+54018,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos,200,OK,3,350,5267
+54019,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,45,182,336256
+54020,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,12,268,148
+54021,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,8,272,29918
+54022,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,6,277,46
+54023,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,3,276,34
+54024,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,11,269,462
+54025,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,8,268,148
+54026,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,7,271,6946
+54027,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos,200,OK,3,350,5267
+54028,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,5,274,32
+54029,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos,200,OK,20,350,5267
+54030,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,17,274,32
+54031,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,18,271,6946
+54032,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,15,268,148
+54033,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,8,276,34
+54034,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,8,274,58
+54036,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,5,277,46
+54037,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,4,272,29918
+54038,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,12,271,6946
+54039,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,11,268,148
+54040,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,7,274,32
+54041,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos,200,OK,6,350,5267
+54042,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,5,276,34
+54043,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,38,182,336256
+54045,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,8,276,34
+54046,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,3,277,46
+54047,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,3,272,29918
+54048,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,15,268,148
+54049,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,14,274,32
+54050,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos,200,OK,14,350,5267
+54051,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,6,276,34
+54052,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,15,271,6946
+54053,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,7,277,46
+54054,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,4,272,29918
+54055,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,6,276,34
+54056,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,8,272,29918
+54057,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,5,276,34
+54058,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,14,268,148
+54059,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos,200,OK,12,350,5267
+54060,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,10,277,46
+54061,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,14,274,32
+54062,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,16,271,6946
+54063,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,7,272,29918
+54064,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,6,276,34
+54065,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,22,273,43
+54067,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,29,271,6946
+54069,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,26,274,32
+54068,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,56,182,336256
+54070,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/swagger.json,200,OK,15,272,29918
+54071,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,20,277,46
+54072,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,17,268,148
+54073,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,POST,https://localhost:3000/api/login,200,OK,22,269,518
+54074,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/assets,200,OK,6,350,5267
+54077,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,11,277,46
+54078,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users/635a62f5dc5d7968e68464c1,401,Unauthorized,2,277,46
+54079,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/species,200,OK,40,271,6946
+54080,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,41,274,32
+54081,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,40,268,148
+54082,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,59,269,462
+54084,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,27,268,148
+54085,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,36,274,58
+54087,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/sightings/635a62f5dc5d7968e68464c1,404,Not Found,33,274,32
+54088,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/api/users,200,OK,37,268,148
+54089,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,5,334,1466
+54090,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,6,333,618
+54091,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,7,334,1466
+54092,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,11,339,15406
+54093,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/index.html,200,OK,8,350,5267
+54094,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,6,350,5267
+54095,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,5,334,1466
+54096,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:42 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,7,333,618
+54097,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,41,339,15406
+54098,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,25,333,618
+54099,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,28,334,1466
+54100,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,28,350,5267
+54101,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html,200,OK,36,350,5267
+54102,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,8,350,5267
+54103,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,8,334,1466
+54104,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,8,333,618
+54105,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,3,350,5267
+54106,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,9,339,15406
+54107,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,222,182,336256
+54108,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/latest,200,OK,32,350,5267
+54109,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,4,333,618
+54110,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,6,334,1466
+54111,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html,200,OK,3,350,5267
+54112,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,5,339,15406
+54113,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,5,350,5267
+54114,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,6,333,618
+54115,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,7,350,5267
+54116,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html,200,OK,6,350,5267
+54117,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,7,339,15406
+54118,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/latest,200,OK,5,350,5267
+54119,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,8,350,5267
+54120,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,4,334,1466
+54121,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,13,350,5267
+54122,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,12,334,1466
+54123,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/latest,200,OK,14,350,5267
+54124,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,15,350,5267
+54125,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,9,339,15406
+54126,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html,200,OK,9,350,5267
+54127,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,11,333,618
+54128,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:43 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,311,269,504
+54129,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,141,182,336256
+54130,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,6,333,618
+54131,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html,200,OK,7,350,5267
+54132,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,9,350,5267
+54133,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,8,339,15406
+54134,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/latest,200,OK,8,350,5267
+54135,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,8,334,1466
+54136,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:43 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,8,350,5267
+54138,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,872,273,43
+54140,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,878,333,618
+54141,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html,200,OK,880,350,5267
+54142,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,881,339,15406
+54143,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,885,334,1466
+54144,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,897,350,5267
+54145,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest,200,OK,896,350,5267
+54146,Tue Nov 21 15:08:42 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,1297,276,1720555
+54147,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,512,269,504
+54148,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/assets,200,OK,757,350,5267
+54149,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,620,269,462
+54150,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest,200,OK,31,350,5267
+54151,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,30,350,5267
+54152,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,607,274,58
+54153,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,35,334,1466
+54154,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html,200,OK,37,350,5267
+54155,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,38,339,15406
+54156,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,41,333,618
+54157,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,918,182,336256
+54158,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,914,350,5267
+54159,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,22,273,43
+54160,Tue Nov 21 15:08:43 CET 2023,Tue Nov 21 15:08:44 CET 2023,POST,https://localhost:3000/api/login,200,OK,751,269,518
+54162,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,3,333,618
+54163,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,3,339,15406
+54164,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html,200,OK,3,350,5267
+54165,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/assets/marker-icon.png,200,OK,2,334,1466
+54166,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,2,350,5267
+54167,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest,200,OK,3,350,5267
+54173,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,25,366,551504
+54174,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,25,182,336256
+54175,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest,200,OK,3,350,5267
+54176,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,4,350,5267
+54177,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html,200,OK,2,350,5267
+54178,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,3,339,15406
+54179,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/assets/marker-shadow.png,200,OK,3,333,618
+54180,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,3,350,5267
+54182,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,31,366,551504
+54183,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,4,350,5267
+54184,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/favicon.ico,200,OK,4,339,15406
+54185,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html,200,OK,4,350,5267
+54186,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,5,350,5267
+54187,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest,200,OK,2,350,5267
+54188,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,38,366,551504
+54189,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest,200,OK,2,350,5267
+54190,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html?ngsw-cache-bust=0.40388004897323193,200,OK,8,350,5267
+54191,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,16,274,58
+54192,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,3,350,5267
+54193,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/index.html,200,OK,2,350,5267
+54194,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,5,273,43
+54195,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,31,182,336256
+54196,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest,200,OK,2,350,5267
+54199,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest,200,OK,3,350,5267
+54200,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,3,350,5267
+54201,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,17,350,5267
+54202,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest,200,OK,18,350,5267
+54203,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,31,269,462
+54204,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,4,350,5267
+54205,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/assets,200,OK,7,350,5267
+54207,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,32,366,551504
+54208,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,84,269,504
+54209,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,6,350,5267
+54211,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,66,182,336256
+54213,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,36,366,551504
+54214,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:44 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,8,350,1342
+54215,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,519,361,911
+54216,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,511,274,58
+54217,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,511,273,43
+54218,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,528,365,68180
+54219,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,POST,https://localhost:3000/api/login,200,OK,660,269,518
+54221,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,504,356,3614
+54222,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,504,364,33819
+54223,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,518,350,1342
+54224,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,486,260,13
+54225,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,2,350,1342
+54226,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:46 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,461,269,504
+54227,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,1,260,13
+54228,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,2,364,33819
+54229,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,2,356,3614
+54230,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/api/photos/d20f56da5646b21f17b045c6264c30a3.jpg,200,OK,896,182,336256
+54231,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,5,365,68180
+54232,Tue Nov 21 15:08:44 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,1070,276,1721565
+54234,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,593,366,551504
+54235,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,523,269,462
+54236,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,10,361,911
+54238,Tue Nov 21 15:08:45 CET 2023,Tue Nov 21 15:08:45 CET 2023,GET,https://localhost:3000/assets,200,OK,480,350,5267
+54240,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,2,361,911
+54243,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,1,350,5267
+54244,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,1,365,68180
+54245,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,4,364,33819
+54246,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,4,356,3614
+54247,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,1,260,13
+54249,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,2,350,1342
+54250,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,POST,https://localhost:3000/api/login,200,OK,8,269,518
+54252,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,4,356,3614
+54253,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,2,260,13
+54254,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,3,364,33819
+54255,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,2,365,68180
+54256,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,2,350,5267
+54257,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,19,366,551504
+54258,Tue Nov 21 15:08:46 CET 2023,Tue Nov 21 15:08:46 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,2,361,911
+54259,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,27,366,551504
+54260,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,2,361,911
+54261,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/assets,200,OK,2,350,5267
+54262,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,6,273,43
+54263,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,6,274,58
+54264,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,3,350,5267
+54265,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,3,365,68180
+54266,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,3,364,33819
+54267,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,2,356,3614
+54268,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,1,260,13
+54269,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,2,350,1342
+54273,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,43,366,551504
+54274,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,1,361,911
+54275,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,23,260,13
+54276,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,18,361,911
+54277,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,37,365,68180
+54278,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,36,350,1342
+54279,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,37,350,5267
+54280,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,32,356,3614
+54281,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,33,364,33819
+54282,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,7,260,13
+54283,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,6,365,68180
+54284,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,6,350,1342
+54285,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,5,361,911
+54286,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,62,366,551504
+54287,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,30,356,3614
+54288,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,30,350,5267
+54289,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,26,260,13
+54290,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,85,364,33819
+54291,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,93,269,462
+54292,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,171,269,504
+54293,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,101,361,911
+54294,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,102,350,1342
+54295,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:47 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,59,260,13
+54298,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,972,365,68180
+54299,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,657,260,13
+54300,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,941,356,3614
+54301,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,11,260,13
+54302,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,POST,https://localhost:3000/api/login,200,OK,858,269,518
+54303,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,446,273,43
+54306,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,954,350,5267
+54307,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,898,364,33819
+54308,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/robots.txt,200,OK,10,260,13
+54309,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,457,274,58
+54311,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,687,361,911
+54312,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,686,350,1342
+54313,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,414,269,462
+54315,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,55,365,68180
+54316,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,44,356,3614
+54317,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,POST,https://localhost:3000/api/login,200,OK,43,269,518
+54319,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/assets,200,OK,437,350,5267
+54320,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,54,364,33819
+54322,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,1167,276,1722070
+54323,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,354,269,504
+54324,Tue Nov 21 15:08:47 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,1078,366,551504
+54325,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,70,352,240158
+54326,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,41,364,33819
+54327,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,66,365,68180
+54328,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,POST,https://localhost:3000/api/login,200,OK,34,269,518
+54329,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,61,356,3614
+54330,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,68,269,462
+54331,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,64,274,58
+54332,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,62,350,1342
+54333,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,62,361,911
+54334,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,69,350,5267
+54335,Tue Nov 21 15:08:48 CET 2023,Tue Nov 21 15:08:48 CET 2023,POST,https://localhost:3000/api/signup,409,Conflict,56,273,43
+54337,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,2,356,3614
+54341,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,2,365,68180
+54342,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,2,364,33819
+54343,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/main.38f96611e3b45bb8.js,200,OK,17,366,551504
+54344,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,2,352,240158
+54347,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,3,352,240158
+54348,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/polyfills.4dc24d1fbef0c985.js,200,OK,2,364,33819
+54349,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/ngsw-worker.js,200,OK,1,365,68180
+54350,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/assets,200,OK,1,350,5267
+54351,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/ngsw.json?ngsw-cache-bust=0.8043078133743231,200,OK,2,356,3614
+54352,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,3,350,5267
+54353,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/runtime.99e255ec3ac808ab.js,200,OK,3,361,911
+54354,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,3,350,1342
+54356,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,3,352,240158
+54357,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,2,352,240158
+54358,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/manifest.webmanifest,200,OK,2,350,1342
+54359,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,2,350,5267
+54360,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,3,352,240158
+54361,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,2,350,5267
+54362,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,2,350,5267
+54363,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,3,352,240158
+54364,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/sitemap.xml,200,OK,1,350,5267
+54365,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,3,352,240158
+54366,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,2,352,240158
+54367,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,2,352,240158
+54368,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,5,352,240158
+54369,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/styles.e09eb59d3edac587.css,200,OK,3,352,240158
+54370,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/assets,200,OK,10,350,5267
+54372,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,POST,https://localhost:3000/api/login,200,OK,17,269,518
+54373,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,13,274,58
+54375,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,PUT,https://localhost:3000/api/users/655c6d061382e6ad1afcfa9d,200,OK,17,269,462
+54378,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/assets,200,OK,11,350,5267
+54379,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:49 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,10,274,58
+54382,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:50 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,886,276,1723080
+54383,Tue Nov 21 15:08:50 CET 2023,Tue Nov 21 15:08:50 CET 2023,GET,https://localhost:3000/api/verify/?email=joze@shrooma.te&token=vCcCaLxbkU6dizzduVjcs42jYh42kc,404,Not Found,538,274,58
+54384,Tue Nov 21 15:08:50 CET 2023,Tue Nov 21 15:08:50 CET 2023,GET,https://localhost:3000/assets,200,OK,495,350,5267
+54387,Tue Nov 21 15:08:49 CET 2023,Tue Nov 21 15:08:50 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,827,269,504
+54390,Tue Nov 21 15:08:50 CET 2023,Tue Nov 21 15:08:50 CET 2023,GET,https://localhost:3000/assets,200,OK,15,350,5267
+54392,Tue Nov 21 15:08:50 CET 2023,Tue Nov 21 15:08:51 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,817,269,504
+54393,Tue Nov 21 15:08:50 CET 2023,Tue Nov 21 15:08:51 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,900,276,1723585
+54396,Tue Nov 21 15:08:52 CET 2023,Tue Nov 21 15:08:52 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,85,269,504
+54398,Tue Nov 21 15:08:52 CET 2023,Tue Nov 21 15:08:53 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,922,276,1724595
+54400,Tue Nov 21 15:08:53 CET 2023,Tue Nov 21 15:08:54 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,862,276,1724595
+54402,Tue Nov 21 15:08:54 CET 2023,Tue Nov 21 15:08:55 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,807,276,1724595
+54404,Tue Nov 21 15:08:55 CET 2023,Tue Nov 21 15:08:56 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,797,276,1724595
+54406,Tue Nov 21 15:08:56 CET 2023,Tue Nov 21 15:08:57 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,814,276,1724595
+54408,Tue Nov 21 15:08:57 CET 2023,Tue Nov 21 15:08:58 CET 2023,GET,https://localhost:3000/api/sightings,200,OK,876,276,1724595
+54410,Tue Nov 21 15:18:58 CET 2023,Tue Nov 21 15:18:58 CET 2023,GET,https://localhost:3000,200,OK,12,350,5267
+54411,Tue Nov 21 15:18:58 CET 2023,Tue Nov 21 15:18:58 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,1,350,5267
+54412,Tue Nov 21 15:18:58 CET 2023,Tue Nov 21 15:18:58 CET 2023,GET,https://localhost:3000/api/photos,200,OK,1,350,5267
+54413,Tue Nov 21 15:18:58 CET 2023,Tue Nov 21 15:18:58 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,1,276,34
+54414,Tue Nov 21 15:18:58 CET 2023,Tue Nov 21 15:18:58 CET 2023,GET,https://localhost:3000/assets,301,Moved Permanently,1,332,179
+54415,Tue Nov 21 15:18:58 CET 2023,Tue Nov 21 15:18:58 CET 2023,GET,https://localhost:3000/latest,200,OK,2,350,5267
+54416,Tue Nov 21 15:18:58 CET 2023,Tue Nov 21 15:18:58 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,2,350,5267
+54417,Tue Nov 21 15:28:58 CET 2023,Tue Nov 21 15:28:58 CET 2023,GET,https://localhost:3000,200,OK,16,350,5267
+54418,Tue Nov 21 15:28:58 CET 2023,Tue Nov 21 15:28:58 CET 2023,GET,https://localhost:3000/api/determinations,200,OK,1,350,5267
+54419,Tue Nov 21 15:28:58 CET 2023,Tue Nov 21 15:28:58 CET 2023,GET,https://localhost:3000/api/photos,200,OK,2,350,5267
+54420,Tue Nov 21 15:28:58 CET 2023,Tue Nov 21 15:28:58 CET 2023,GET,https://localhost:3000/api/verify,400,Bad Request,2,276,34
+54421,Tue Nov 21 15:28:58 CET 2023,Tue Nov 21 15:28:58 CET 2023,GET,https://localhost:3000/assets,301,Moved Permanently,1,332,179
+54422,Tue Nov 21 15:28:58 CET 2023,Tue Nov 21 15:28:58 CET 2023,GET,https://localhost:3000/latest,200,OK,1,350,5267
+54423,Tue Nov 21 15:28:58 CET 2023,Tue Nov 21 15:28:58 CET 2023,GET,https://localhost:3000/latest/meta-data,200,OK,2,350,5267
+54424,Tue Nov 21 15:34:06 CET 2023,Tue Nov 21 15:34:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,111,269,504
+54425,Tue Nov 21 15:34:06 CET 2023,Tue Nov 21 15:34:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,58,269,504
+54426,Tue Nov 21 15:34:06 CET 2023,Tue Nov 21 15:34:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,54,269,504
+54427,Tue Nov 21 15:34:06 CET 2023,Tue Nov 21 15:34:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,38,269,504
+54428,Tue Nov 21 15:34:06 CET 2023,Tue Nov 21 15:34:06 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,47,269,504
+54429,Tue Nov 21 15:34:06 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,41,269,504
+54430,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,77,269,504
+54431,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,48,269,504
+54432,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,41,269,504
+54433,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,45,269,504
+54434,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,42,269,504
+54435,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,51,269,504
+54436,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,50,269,504
+54437,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,47,269,504
+54438,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,45,269,504
+54439,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,46,269,504
+54440,Tue Nov 21 15:34:07 CET 2023,Tue Nov 21 15:34:07 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,61,269,500
+54441,Tue Nov 21 15:34:08 CET 2023,Tue Nov 21 15:34:08 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,43,269,419
+54442,Tue Nov 21 15:34:08 CET 2023,Tue Nov 21 15:34:08 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,41,269,419
+54443,Tue Nov 21 15:36:48 CET 2023,Tue Nov 21 15:36:48 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,55,269,504
+54444,Tue Nov 21 15:36:48 CET 2023,Tue Nov 21 15:36:48 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,54,269,504
+54445,Tue Nov 21 15:36:48 CET 2023,Tue Nov 21 15:36:48 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,47,269,504
+54446,Tue Nov 21 15:38:08 CET 2023,Tue Nov 21 15:38:08 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,56,269,504
+54447,Tue Nov 21 15:38:08 CET 2023,Tue Nov 21 15:38:09 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,63,269,504
+54448,Tue Nov 21 15:38:09 CET 2023,Tue Nov 21 15:38:09 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,61,269,504
+54449,Tue Nov 21 15:38:09 CET 2023,Tue Nov 21 15:38:09 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,46,269,504
+54450,Tue Nov 21 15:38:09 CET 2023,Tue Nov 21 15:38:09 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,54,269,504
+54451,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,55,269,504
+54452,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,65,269,504
+54453,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,43,269,504
+54454,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,44,269,504
+54455,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,39,269,504
+54456,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,44,269,504
+54457,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,43,269,504
+54458,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,54,269,504
+54459,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,39,269,504
+54460,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:29 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,55,269,500
+54461,Tue Nov 21 15:39:29 CET 2023,Tue Nov 21 15:39:30 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,41,269,419
+54462,Tue Nov 21 15:39:30 CET 2023,Tue Nov 21 15:39:30 CET 2023,POST,https://localhost:3000/api/sightings,200,OK,38,269,419

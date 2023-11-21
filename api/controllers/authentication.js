@@ -73,6 +73,8 @@ const signup = async (req, res) => {
     // see register in https://github.com/Arihantjain1/registration_with_email_verification
     if (!req.body.name || !req.body.email || !req.body.password)
       return res.status(400).json({ message: "all fields required." });
+    if (!(/(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/.test(req.body.email)))
+      return res.status(400).json({ message: "not a valid email" });
     if (await User.findOne({ $or: [{ email: req.body.email }, { name: req.body.name }]}).exec())
       return res.status(409).json({ message: "this account is already taken" });
     // TODO: check if email already exists
@@ -241,17 +243,18 @@ const login = (req, res) => {
   try {
     if (!req.body.email || !req.body.password)
       return res.status(400).json({ message: "all fields required." });
-    else
-      passport.authenticate("local", (err, user, info) => {
-        if (err) 
-          return res.status(500).json({ message: err.message });
-        if (!user) 
-          return res.status(401).json({ message: info.message });
-        if (!user.enabled)
-          return res.status(401).json({ message: "account has been disabled" });
-        const { hash, salt, signup_token, ...rest } = user.toObject();
-        return res.status(200).json({ token: user.generateJwt(), user: rest });
-      })(req, res);
+    if (!(/(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*|"(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*")@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9]))\.){3}(?:(2(5[0-5]|[0-4][0-9])|1[0-9][0-9]|[1-9]?[0-9])|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])/.test(req.body.email)))
+      return res.status(400).json({ message: "not a valid email" });    
+    passport.authenticate("local", (err, user, info) => {
+      if (err) 
+        return res.status(500).json({ message: err.message });
+      if (!user) 
+        return res.status(401).json({ message: info.message });
+      if (!user.enabled)
+        return res.status(401).json({ message: "account has been disabled" });
+      const { hash, salt, signup_token, ...rest } = user.toObject();
+      return res.status(200).json({ token: user.generateJwt(), user: rest });
+    })(req, res);
   } catch (err) {
     res.status(500).json({ message: err.message });
   }

@@ -5,6 +5,7 @@ import { Sighting } from '../../classes/sighting';
 import { Species } from '../../classes/species';
 import { AuthenticationService } from '../../services/authentication.service';
 import { Photo } from '../../classes/photo';
+import { ConnectionService } from '../../services/connection.service';
 
 @Component({
   selector: 'app-sighting',
@@ -16,6 +17,7 @@ export class SightingComponent {
     private shroomateDataService: ShroomateDataService,
     private authenticationService: AuthenticationService,
     public activeModal: NgbActiveModal,
+    private connectionService: ConnectionService,
   ) {
     this.sighting.position[0] += Math.random() * 0.0005;
     this.sighting.position[1] += Math.random() * 0.0005;
@@ -78,5 +80,9 @@ export class SightingComponent {
         this.activeModal.dismiss('saved sighting');
         // TODO: redo markers?
       });
+  }
+
+  public isConnected(): boolean {
+    return this.connectionService.isConnected;
   }
 }

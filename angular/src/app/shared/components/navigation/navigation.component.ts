@@ -5,6 +5,9 @@ import { LoginComponent } from '../login/login.component';
 import { AuthenticationService } from "../../services/authentication.service";
 import { SettingsComponent } from '../settings/settings.component';
 import { SightingComponent } from '../sighting/sighting.component';
+import { ConnectionService } from "../../services/connection.service";
+import { User } from '../../classes/user';
+import { faUser, faTriangleExclamation } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-navigation',
@@ -13,10 +16,13 @@ import { SightingComponent } from '../sighting/sighting.component';
   ]
 })
 export class NavigationComponent {
+  faUser = faUser;
+  faTriangleExclamation = faTriangleExclamation;
 
   constructor(
     private modalService: NgbModal,
     private authenticationService: AuthenticationService,
+    private connectionService: ConnectionService,
     ) {}
 
   openSighting() {
@@ -47,4 +53,12 @@ export class NavigationComponent {
     return this.authenticationService.isLoggedIn();
   }
 
+  public getCurrentUserName(): string {
+    const user: User | null = this.authenticationService.getCurrentUser();
+    return user ? user.name : "Guest";
+  }
+
+  public isConnected(): boolean {
+    return this.connectionService.isConnected;
+  }
 }

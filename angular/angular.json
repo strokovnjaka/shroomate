@@ -54,7 +54,8 @@
                 "glob": "**/*",
                 "input": "node_modules/leaflet/dist/images/",
                 "output": "./assets"
-              }
+              },
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
@@ -62,7 +63,9 @@
               "node_modules/ngx-toastr/toastr.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -86,6 +89,37 @@
               ],
               "outputHashing": "all"
             },
+            "zap": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.zap.ts"
+                }
+              ],
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "500kb",
+                  "maximumError": "1mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2kb",
+                  "maximumError": "4kb"
+                }
+              ],
+              "outputHashing": "all"
+            },
+            "test": {
+              "fileReplacements": [
+                {
+                  "replace": "src/environments/environment.ts",
+                  "with": "src/environments/environment.test.ts"
+                }
+              ],
+              "sourceMap": true,
+              "namedChunks": true
+            },
             "development": {
               "buildOptimizer": false,
               "optimization": false,
@@ -105,6 +139,9 @@
             },
             "development": {
               "browserTarget": "Shroomate:build:development"
+            },
+            "test": {
+              "browserTarget": "Shroomate:build:test"
             }
           },
           "defaultConfiguration": "development"

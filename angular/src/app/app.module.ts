@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from "@angular/common/http";
 import { MapComponent } from './shared/components/map/map.component';
@@ -18,6 +18,8 @@ import { LoginComponent } from './shared/components/login/login.component';
 import { ToastrModule } from 'ngx-toastr';
 import { SettingsComponent } from './shared/components/settings/settings.component';
 import { SightingComponent } from './shared/components/sighting/sighting.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -53,6 +55,13 @@ import { SightingComponent } from './shared/components/sighting/sighting.compone
       countDuplicates: true,
       includeTitleDuplicates: true,
     }),
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
+    FontAwesomeModule,
   ],
   providers: [
     DateAgoPipe,

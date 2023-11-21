@@ -6,6 +6,7 @@ import { throwError } from "rxjs";
 import { catchError } from "rxjs/operators";
 import { User } from '../../classes/user';
 import { AuthenticationService } from "../../services/authentication.service";
+import { ConnectionService } from '../../services/connection.service';
 
 @Component({
   selector: 'app-login',
@@ -17,6 +18,7 @@ export class LoginComponent {
     public activeModal: NgbActiveModal,
     private router: Router,
     private authenticationService: AuthenticationService,
+    private connectionService: ConnectionService,
   ) { }
 
   protected formError!: string;
@@ -49,5 +51,9 @@ export class LoginComponent {
         this.activeModal.dismiss('signed up');
         this.router.navigateByUrl("/");
       });
+  }
+
+  public isConnected(): boolean {
+    return this.connectionService.isConnected;
   }
 }

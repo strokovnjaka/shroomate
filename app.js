@@ -56,6 +56,10 @@ The application supports:
     ],
     servers: [
       {
+        url: "https://localhost:3000/api",
+        description: "Secure development server for testing",
+      },
+      {
         url: "http://localhost:3000/api",
         description: "Development server for testing",
       },
@@ -101,12 +105,32 @@ const methodOverride = require('method-override');
 app.use(methodOverride('_method'));
 
 /**
+ *  Security issues resolved
+ */
+app.disable('x-powered-by');
+app.use((req, res, next) => {
+  res.header('X-Frame-Options', 'DENY');
+  res.setHeader('X-XSS-Protection', '1; mode=block');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  next();
+});
+
+/**
  * Database connection
  */
 const upload = require("./api/models/db.js");
 require("./api/config/passport.js");
 
 const apiRouter = require("./api/routes/api.js")(upload);
+
+/**
+ * Robots.txt
+ */
+app.get('/robots.txt', function (req, res) {
+  res.type('text/plain');
+  res.send("user-agent: *"); //\ndisallow: /api/");
+  // res.send("User-agent: *\nDisallow: /");
+});
 
 /**
  * Static pages
@@ -162,10 +186,29 @@ app.use((err, req, res, next) => {
 /**
  * Start server
  */
-app.listen(port, () => {
-  console.log(
-    `Shroomate app started in ${
-      process.env.NODE_ENV || "development"
-    } mode listening on port ${port}!`
-  );
-});
+if (process.env.HTTPS == "true") {
+  const fs = require("fs");
+  const https = require("https");
+  https
+    .createServer(
+      {
+        key: fs.readFileSync("cert/server.key"),
+        cert: fs.readFileSync("cert/server.cert"),
+      },
+      app
+    )
+    .listen(port, () => {
+      console.log(
+        `Secure demo app started in '${process.env.NODE_ENV || "development"
+        } mode' listening on port ${port}!`
+      );
+    });
+} else {
+  app.listen(port, () => {
+    console.log(
+      `Shroomate app started in ${
+        process.env.NODE_ENV || "development"
+      } mode listening on port ${port}!`
+    );
+  });
+}

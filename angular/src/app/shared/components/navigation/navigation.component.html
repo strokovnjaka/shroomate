@@ -1,9 +1,12 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="z-index: 999; --bs-bg-opacity: 0.7;">
   <div class="container-fluid">
-    <a class="navbar-brand">
+    <a class="navbar-brand" href="/">
       <img src="favicon.ico" alt="" height="32" class="d-inline-block align-text-middle">
       <b>ShrooM</b>ate
     </a>
+    <div *ngIf="!isConnected()" class="text-light nav-link m-2 menu-item">
+      <fa-icon [icon]="faTriangleExclamation"></fa-icon>
+    </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -25,7 +28,12 @@
           <button class="nav-link m-2 menu-item" (click)="openSettings()">Settings</button>
         </li>
         <li *ngIf="isLoggedIn()" class="nav-item">
-          <button class="nav-link m-2 menu-item" (click)="logout()">Log out</button>
+          <button class="nav-link m-2 menu-item" (click)="logout()">Log out</button>&nbsp;
+        </li>
+        <li *ngIf="isLoggedIn()" class="nav-item">
+          <div class="text-light nav-link m-2 menu-item">
+            <fa-icon class="me-2" [icon]="faUser"></fa-icon> {{ getCurrentUserName() }}
+          </div>
         </li>
         <!-- logged out -->
         <li *ngIf="!isLoggedIn()" class="nav-item">
@@ -35,10 +43,6 @@
           <button class="nav-link m-2 menu-item" (click)="openLogin()">Log in</button>
         </li>
       </ul>
-      <!-- <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form> -->
     </div>
   </div>
 </nav>

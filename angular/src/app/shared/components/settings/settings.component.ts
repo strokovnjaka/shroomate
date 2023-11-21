@@ -6,6 +6,7 @@ import { catchError } from "rxjs/operators";
 import { ShroomateDataService } from '../../services/shroomatedata.service';
 import { User } from '../../classes/user';
 import { AuthenticationService } from '../../services/authentication.service';
+import { ConnectionService } from '../../services/connection.service';
 
 @Component({
   selector: 'app-settings',
@@ -17,6 +18,7 @@ export class SettingsComponent {
     private shroomateDataService: ShroomateDataService,
     private authenticationService: AuthenticationService,
     public activeModal: NgbActiveModal,
+    private connectionService: ConnectionService,
   ) {
   }
 
@@ -45,5 +47,9 @@ export class SettingsComponent {
       .subscribe(() => {
         this.activeModal.dismiss('saved settings');
       });
+  }
+
+  public isConnected(): boolean {
+    return this.connectionService.isConnected;
   }
 }

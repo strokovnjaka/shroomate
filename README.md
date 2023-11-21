@@ -38,7 +38,7 @@ Gobar lahko določi:
   - *makrolokacija*: skrije se mikrolokacija, tj. pred predstavitvijo najdbe se lokacijo spremeni tako, da mikrolokaija ni na voljo (npr. psevdonaključni zamik)
   - *regija*: predstavi se le regija, tj. pred predstavitvijo najdbe se lokacijo spremeni tako, da je vidna samo širša regija najdbe (npr. zaokrožanje na centre večjih delov območja)
 
-# LP description
+# LP 1: Backend
 
 ## UI specifications
 
@@ -65,3 +65,32 @@ REST API is available at https://shroomate.onrender.com/api, with swagger testbe
 ## Presentation
 
 The [presentation](https://docs.google.com/presentation/d/e/2PACX-1vT07qE-whpL6psH0vZB5EhW-t2tGuDjfIVpu3UjbD02Wp2ViQk3ij4JNzZDGmqCkzrzk-lOyPZUI_M4/pub?start=false&loop=false&slide=id.g25f6af9dd6_0_0) about the project should be available anytime now.
+
+
+# LP 2: Frontend
+
+## Part 1. UI
+
+Due to acute lack of time, only sample parts were implemented, supposedly showing all main concepts.
+
+## Part 2. PWA, testing, security
+
+### PWA
+
+**Lighthouse** revision:
+- added  `robots.txt`
+- for `PWA` added disabling buttons on disconnected, icon
+- major TODO: performance poor (score 66/34 for desktop/mobile), mainly due to loading images: openstreetmaps via leaflet, sighting images (they are saved in original size and format, should process them on upload: resize, reformat, remove location & other metadata, ...)
+
+### Security check
+
+**ZAP** scan:
+- a single attack took 5 hours, abandoned trying after-the-changes attack; see `csv` report
+
+### Functional test
+
+**Selenium + Mocha + Chai**:
+- computer crashed after **ZAP** scan
+- even after restart, docker refused to run containers (daemon did not start)
+- could not get mocha to work, got `sh: /Users/.../node_modules/.bin/mocha: Permission denied`
+  
