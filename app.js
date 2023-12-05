@@ -199,8 +199,7 @@ if (process.env.HTTPS == "true") {
     )
     .listen(port, () => {
       console.log(
-        `Secure demo app started in '${process.env.NODE_ENV || "development"
-        } mode' listening on port ${port}!`
+        `HTTPS Shroomate app started in ${process.env.NODE_ENV || "development"} mode listening on port ${port}!`
       );
     });
 } else {

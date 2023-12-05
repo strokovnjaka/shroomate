@@ -16,7 +16,10 @@
     "delete:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.Species.deleteMany({})'\"",
     "view:db-docker": "docker exec -it web-dev-mongo-db bash -c \"mongosh shroomate --eval 'db.Species.find()'\"",
     "transfer:db-docker-atlas": "docker exec -it web-dev-mongo-db bash -c \"mongodump -h localhost -d shroomate -o ./\"; docker exec -it web-dev-mongo-db bash -c \"mongorestore --drop --uri mongodb+srv://app@shroomate.bcxlfpk.mongodb.net/shroomate ./shroomate\"; docker exec -it web-dev-mongo-db bash -c \"rm -rf ./shroomate\"",
-    "test": "mocha test --bail --exit --reporter mochawesome --reporter-options autoOpen=true,reportDir=test/report,reportFilename=report,json=false"
+    "test": "mocha test --bail --exit --reporter mochawesome --reporter-options autoOpen=true,reportDir=test/report,reportFilename=report,json=false",
+    "drop:db-local": "mongosh shroomate --eval 'db.dropDatabase()'",
+    "import:db-local": "mongoimport --db shroomate --collection Species --mode upsert --upsertFields id --jsonArray --file data/db_species.json; mongoimport --db shroomate --collection Users --mode upsert --upsertFields id --jsonArray --file data/db_users.json",
+    "init:db-local": "npm run drop:db-local; npm run create:db-init; npm run import:db-local; npm run clean:db-init"
   },
   "dependencies": {
     "axios": "^1.5.1",
