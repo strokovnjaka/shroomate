@@ -4,7 +4,7 @@ WORKDIR /usr/src/app
 # Copy package.json and install dependencies.
 # Docker will cache node_modules, if package.json and package-lock.json are not changed.
 COPY package.json ./
-RUN npm install
+RUN npm install --legacy-peer-deps
 # Copy source code of the application
 COPY . .
 EXPOSE 3000
