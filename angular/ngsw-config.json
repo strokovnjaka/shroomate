@@ -35,7 +35,6 @@
         "https://127.0.0.1:3000/**",
         "http://host.docker.internal:3000/**",
         "https://host.docker.internal:3000/**",
-        "https://shroomate.onrender.com/api/**",
         "https://tile.openstreetmap.org/**"
       ],
       "cacheConfig": {

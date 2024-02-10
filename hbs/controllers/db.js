@@ -1,8 +1,6 @@
 const apiServer =
-  process.env.BASE_URL ? process.env.BASE_URL : (
-  process.env.NODE_ENV === "production"
-    ? "https://shroomate.onrender.com"
-    : "http://localhost:" + (process.env.PORT || 3000));
+  process.env.BASE_URL ? process.env.BASE_URL : 
+    "http://localhost:" + (process.env.PORT || 3000);
 const axios = require("axios").create({ baseURL: apiServer, timeout: 5000 });
 
 const init = async (req, res) => {
