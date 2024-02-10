@@ -39,7 +39,7 @@ storage.on('connection', (db) => {
 });
 
 storage.on('connectionFailed', (err) => {
-  console.log('gridfs storage connection faild');
+  console.log('gridfs storage connection failed');
 });
 
 const upload = multer({ storage });
