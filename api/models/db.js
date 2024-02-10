@@ -5,7 +5,7 @@ const crypto = require('crypto');
 const path = require("path");
 
 let dbURI = "mongodb://127.0.0.1/shroomate";
-if (process.env.NODE_ENV === "production")
+if (process.env.MONGODB_ATLAS_URI)
   dbURI = process.env.MONGODB_ATLAS_URI;
 else if (process.env.NODE_ENV === "test")
   dbURI = "mongodb://web-dev-mongo-db/shroomate";
