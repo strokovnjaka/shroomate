@@ -1,4 +1,4 @@
 export const environment = { 
-  apiUrl: process.env["BASE_URL"] ? process.env["BASE_URL"] + "/api" : "http://localhost:3000/api",
+  apiUrl: "https://essa-vm-07.lrk.si/api",
   production: true,
 };
