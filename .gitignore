@@ -2,3 +2,6 @@ node_modules
 .DS_Store
 .env
 cert
+.venv
+.vscode
+playwrighttest/__pycache__
